@@ -3,36 +3,34 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<h2 id="indext">FileOperations : A Python Package.</h2>
+<div>
+  <h3>List of Contents:</h3>
+  <ul>
+    <li>
+      <a href="/about" class="indexa">Introduction</a>
+    </li>
+    <li>
+      <a href="/Installation/" class="indexa">Installation</a>
+    </li>
+    <li class="indexa">
+      Usage
+       <ul>
+        <li><a href="/FileOperations/" class="indexa">FileOperations</a></li>
+        <li><a href="/FileReader/" class="indexa">FileReader</a></li>
+       </ul>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+    </li>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+
+  <p>TIP: Use the NavButton in the top left to make Navigating easy.</p>  
+
+
+
+
+
+
+  </ul>
+
 

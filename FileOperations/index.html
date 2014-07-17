@@ -1,0 +1,32 @@
+---
+layout: page
+title: "FileOperations Module"
+description: ""
+---
+
+<h3>Loading FileOperations</h3>
+ 
+
+ {%highlight js%} from fileoperations import FileOperations {%endhighlight%}
+  <h3>def CreateFile:</h3>
+   <p>Makes a file with the given filename in the directory where it is run.
+     {%highlight js%} FileOperations.CreateFile("filename.txt") {%endhighlight%}
+    </p>
+
+<h3>def CreateFileInDirectory:</h3>
+   <p>Makes a file with the given filename in the specified Directory.
+     {%highlight js%} FileOperations.CreateFileInDirectory("f.json","C:/Users/Myname/") {%endhighlight%}
+    </p>
+<h3>def DeleteFile:</h3>
+   <p>Deletes File. You may include directory in filename
+     {%highlight js%} FileOperations.DeleteFile("C:/Users/Myname/f.json") {%endhighlight%}
+    </p>
+<h3>def CopyFile:</h3>
+   <p>Copy file from startdest to enddest. The third argument passed is the new file
+     {%highlight js%} FileOperations.CopyFile("C:/Users/Myname/f.json","C:/","new.txt") {%endhighlight%}
+    </p>    
+
+
+
+
+

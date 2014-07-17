@@ -38,6 +38,7 @@
 html,
 body {
   overflow-x: hidden;
+  background-color:rgba(187, 187, 187, 0.62)
 }
 
 html {
@@ -51,6 +52,14 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -.025rem;
 }
 
+#indext{
+  color:#FA7744;
+  
+}
+
+.indexa{
+  font-size: 25px;
+}
 
 /*
  * Wrapper
@@ -98,6 +107,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
+  background-color: #474B49;
 }
 .masthead-title {
   margin-top: 0;
@@ -105,12 +115,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #505050;
 }
 .masthead-title a {
-  color: #505050;
+  color: #E72020;
 }
 .masthead-title small {
   font-size: 75%;
   font-weight: 400;
-  color: #c0c0c0;
+  color:#04AEE4;
   letter-spacing: 0;
 }
 
@@ -306,7 +316,7 @@ a.sidebar-nav-item:focus {
 .page-title,
 .post-title,
 .post-title a {
-  color: #303030;
+  color: #3376BE;
 }
 .page-title,
 .post-title {
@@ -495,12 +505,12 @@ a.pagination-item:hover {
 .theme-base-0d .sidebar,
 .theme-base-0d .sidebar-toggle:active,
 .theme-base-0d #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #6a9fb5;
+  background-color: #092835;
 }
 .theme-base-0d .container a,
 .theme-base-0d .sidebar-toggle,
 .theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
+  color: ##092835;
 }
 
 /* Magenta */
