@@ -10,22 +10,30 @@ description: ""
  {%highlight js%} from fileoperations import FileReader {%endhighlight%}
   <h3>def WordByWord:</h3>
    <p> Reads a File Word By Word and returns a list of the words.
-     {%highlight js%} FileReader.WordByWord("filename.txt") {%endhighlight%}
+     {%highlight js%} print FileReader.WordByWord("filename.txt") {%endhighlight%}
     </p>
 
 <h3>def LineByLine:</h3>
    <p> Reads a File Line By Line and returns a list of the lines.
-     {%highlight js%} FileReader.LineByLine("filename.txt") {%endhighlight%}
+     {%highlight js%}print FileReader.LineByLine("filename.txt") {%endhighlight%}
     </p>
 <h3>def LetterByLetter:</h3>
    <p> Reads a File Letter By Letter and returns a list of the letters.
-     {%highlight js%} FileReader.LetterByLetter("filename.txt") {%endhighlight%}
+     {%highlight js%}print FileReader.LetterByLetter("filename.txt") {%endhighlight%}
     </p>
 <h3>def NthLetter:</h3>
    <p>Return Nth Letter From a file.
-     {%highlight js%} FileReader.NthLetter("w.txt",6) {%endhighlight%}
+     {%highlight js%}print FileReader.NthLetter("w.txt",6) {%endhighlight%}
     </p>
 <h3>def NthWord:</h3>
    <p>Return Nth Word From a file.
-     {%highlight js%} FileReader.NthWord("w.txt",3) {%endhighlight%}
-    </p>         
+     {%highlight js%}print FileReader.NthWord("w.txt",3) {%endhighlight%}
+    </p>
+<h3>def SearchFile:</h3>
+   <p>Search file for string.
+     {%highlight js%}FileReader.SearchFile("w.txt","here is") {%endhighlight%}
+    </p>
+<h3>def ReplaceWord:</h3>
+   <p>Replace string or word in file.
+     {%highlight js%}FileReader.ReplaceWord("COPYING.txt","he is,","bye"){%endhighlight%}
+    </p>                 
